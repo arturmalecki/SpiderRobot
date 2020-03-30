@@ -1,10 +1,11 @@
 # Setup
 
-1. Install Adafruit ServoKit Library: https://circuitpython.readthedocs.io/projects/servokit/en/latest/
-  * `pip3 install adafruit-circuitpython-servokit` -> for current user
-  * `sudo pip3 install adafruit-circuitpython-servokit` -> global
+1. Install pip
+2. `cp .env_example .env
+2. Install dependencies
+  `pip3 install -r requirments.txt --user`
 
 # Remote run
 ```
-./bin/remote_run
+bin/remote_run
 ```

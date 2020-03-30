@@ -1,4 +1,3 @@
 #!/bin/bash
 
-source .env/bin/activate
-python spider_bot/main.py
+python3 ./spider_robot/main.py
