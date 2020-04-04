@@ -64,11 +64,10 @@ def stand():
   print('===========================')
 
 print('Start')
-kit.servo[0].angle = 0
 # while(True):
-# init()
-# time.sleep(5)
-# stand()
+init()
+time.sleep(5)
+stand()
 # time.sleep(1)
 # time.sleep(2)
 # init()
@@ -91,4 +90,4 @@ print('Stop')
 #   kit.servo[6].angle = 90
 #   kit.servo[9].angle = 90
 #   time.sleep(0.2)
-# stand()
+stand()
