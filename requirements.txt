@@ -1,2 +1,2 @@
 python-dotenv
-adafruit-circuitpython-servokit
+adafruit-circuitpython-servokits
